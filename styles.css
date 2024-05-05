@@ -1,0 +1,145 @@
+/* styles.css */  
+  
+/* 重置默认样式 */  
+/* * {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+}   */
+  
+body {  
+    font-family: Arial, sans-serif;  
+    line-height: 1.6;  
+    color: #333333;  
+}  
+/* html, body {  
+    margin: 0;  
+    padding: 0;  
+    overflow: hidden;  
+}   */
+  
+canvas {  
+    display: block; /* 移除canvas底部的额外空间 */  
+}
+canvas {  
+    position: absolute;  
+    top: 0;  
+    left: 0;  
+    z-index: -1; /* 放置在内容下方 */  
+}    
+/* 头部样式 */  
+header {  
+    /* background-color: #0582ff;  
+    padding: 10px;  
+    text-align: center;  
+     */
+     background-color: #00ccff;  
+    padding: 10px;  
+    text-align: center;  
+    /* 设置具体的宽度 */  
+    width: 60%; /* 或者使用具体的像素值，如 800px */  
+    /* 使其水平居中（如果设置了具体的宽度） */  
+    margin: 0 auto;  
+    border-radius: 10px; /* 圆角半径，可以根据需要调整 */  
+
+}  
+  
+header h1 {  
+    font-size: 2em;  
+}  
+  
+/* 导航样式 */  
+nav ul {  
+    /* list-style-type: none;  
+    display: flex;  
+    justify-content: center;  
+    margin-top: 20px;   */
+    display: flex; /* 使用Flexbox布局 */  
+    justify-content: center; /* 使列表项水平居中 */  
+    list-style-type: none; /* 移除列表项前的标记 */  
+    padding: 0; /* 移除默认的列表项内边距 */  
+    max-width: 1000px; /* 设置最大宽度 */  
+    margin: 0 auto; /* 水平居中 */  
+}  
+  
+nav ul li {  
+    margin: 0 10px;  
+}  
+  
+nav ul li a {  
+    text-decoration: none;  
+    color: #ffffff;  
+    padding: 5px 10px;  
+    border-bottom: 2px solid transparent;  
+    transition: border-bottom 0.3s ease;  
+}  
+  
+nav ul li a:hover {  
+    border-bottom: 2px solid #007bff;  
+}  
+  
+/* 主要内容样式 */  
+main {  
+    padding: 20px;  
+}  
+  
+section {  
+    margin-bottom: 30px;  
+}  
+  
+section h2 {  
+    font-size: 1.5em;  
+    margin-bottom: 15px;  
+}  
+  
+article p {  
+    margin-bottom: 10px;  
+}  
+  
+article a {  
+    text-decoration: none;  
+    color: #007bff;  
+}  
+  
+/* 底部样式 */  
+footer {  
+    background-color: #ffffff;  
+    padding: 20px;  
+    text-align: center;  
+    position: fixed;  
+    left: 0;  
+    bottom: 0;  
+    width: 100%;  
+}  
+  
+/* 其他可能的样式 */  
+/* 例如，你可以为“关于我”部分添加背景色或边框等 */  
+#about {  
+    background-color: #ffffff;  
+    padding: 10px;  
+    border-radius: 10px;  
+    width:600px;
+    margin: 0 auto; /* 水平居中 */  
+}  
+#posts{
+    background-color: #ffffff;  
+    padding: 10px;  
+    border-radius: 10px;  
+    width:600px;
+    margin: 0 auto; /* 水平居中 */
+}
+  #contact{
+    background-color: #ffffff;  
+    padding: auto;   
+    border-radius: 10px;  
+    width:600px;
+    margin: 0 auto; /* 水平居中 */
+  }
+  #footer{
+    background-color: #ffffff;  
+    padding: 10px;  
+    border-radius: 10px;  
+    width:600px;
+    margin: 0 auto; /* 水平居中 */
+  }
+/* 确保你的CSS文件链接在HTML中正确无误 */
